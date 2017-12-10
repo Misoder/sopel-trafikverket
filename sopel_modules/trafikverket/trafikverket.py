@@ -4,15 +4,24 @@ from __future__ import unicode_literals, absolute_import, division, print_functi
 
 from sopel import module
 
+import logging
+
+LOG = logging.getLogger(__name__)
 
 def configure(config):
     pass
 
 
 def setup(bot):
+    LOG.info('Initializing setup')
     pass
 
 
-@module.commands('helloworld')
+@module.commands('tåg')
 def hello_world(bot, trigger):
-    bot.say('Hello, world!')
+    bot.say('Trainmessage')
+
+
+@module.commands('väg')
+def hello_world(bot, trigger):
+    bot.say('Roadmessage')
