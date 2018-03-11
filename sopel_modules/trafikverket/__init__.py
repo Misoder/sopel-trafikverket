@@ -7,7 +7,7 @@ from __future__ import unicode_literals, absolute_import, division, print_functi
 
 from .trafikverket import *
 
-__author__ = 'Mikael Söder'
-__email__ = 'mik@elsoder.se'
-__version__ = '0.1.0'
+__author__  = 'Mikael Söder'
+__email__   = 'mik@elsoder.se'
+__version__ = '0.1.1'
 

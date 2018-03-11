@@ -61,3 +61,8 @@ target/
 
 # File created by Dolphin
 .directory
+
+# Configuration file
+config.ini
+
+venv/
