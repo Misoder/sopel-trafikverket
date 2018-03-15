@@ -63,6 +63,7 @@ target/
 .directory
 
 # Configuration file
+#
 config.ini
 
 venv/
